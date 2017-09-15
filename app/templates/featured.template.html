@@ -1,0 +1,6 @@
+<h3 class="title">Quick Hits</h3>
+<section id="latestArticles">
+	<article ng-repeat="article in $ctrl.articles">
+		<a href="{{ article.url }}" target="_blank"><img src="{{ article.urlToImage }}" /><span>{{ article.title }}</span></a>
+	</article>
+</section>

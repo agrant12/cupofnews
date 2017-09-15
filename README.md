@@ -1,2 +1,2 @@
 # cupofnews
-Front End news aggregation Web Application
+Angular 1 news aggregation web application.

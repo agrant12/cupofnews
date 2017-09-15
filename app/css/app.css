@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	margin: 0 auto;
+	width: 970px;
+}
+
+header {
+	padding: 20px 20px 5px;
+	//background: #424040;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 320px;
+}
+
+header a {
+	color: black;
+}
+
+header a:hover {
+	color: grey;
+	text-decoration: none;
+	transition: color .5s;
+}
+
+menu {
+	padding: 0 8px;
+}
+
+menu ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+menu ul li {
+	margin: 0 5px;
+}
+
+menu ul li a {
+	color: #000;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+menu ul li a:hover {
+	color: #6e001a;
+	transition: color .3s;
+}
+
+menu ul li:first-child {
+	margin-left: 0;
+}
+
+.title {
+	font-family: sans-serif;
+	margin: 10px 8px;
+}
+
+section#latestArticles {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 100%;
+}
+
+section#latestArticles article {
+	//height: 170px;
+	margin: 10px;
+	margin-bottom: 25px;
+	width: calc(100%/4 - 20px);
+}
+
+section#latestArticles article a {
+	color: #7CA0D4;
+	display: block;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100%;
+}
+section#latestArticles article a span:hover {
+	color: #666;
+	transition: color .5s;
+}
+
+section#latestArticles article img {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+section#latestArticles article .description {
+	font-size: 10px;
+	line-height: 15px;
+}
+
+#sources p {
+	font-size: 12px;
+	padding: 0 20px;
+}
+#sources ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 15px;
+}
+
+#sources ul li {
+	list-style: none;
+	margin: 5px 10px;
+	width: calc(100%/4 - 20px);
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+}
+
+form select {
+	background: white;
+    border: none;
+    height: 18px;
+}

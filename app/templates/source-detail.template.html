@@ -1,0 +1,8 @@
+<h3 class="title">{{ article.name }}</h3>
+<section id="latestArticles">
+	<article ng-repeat="article in $ctrl.articles">
+		<!--<a href="{{ article.url }}" target="_blank"><img src="{{ article.urlToImage }}" /><span>{{ article.title }}</span></a>-->
+		<a href="{{ article.url }}" target="_blank"><img src="{{ article.urlToImage }}" /><span>{{ article.title }}</span></a>
+		<p class="description">{{ article.description }}</p>
+	</article>
+</section>

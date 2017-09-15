@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="CupofNews">
+<head>
+	<title>Cup of News</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.js"></script>
+	<link rel="stylesheet" type="text/css" href="app/css/app.css" />
+	<script type="text/javascript" src="app/js/app.module.js"></script>
+	<script type="text/javascript" src="app/js/app.config.js"></script>
+	<script type="text/javascript" src="app/js/components/featured/featured.component.js"></script>
+	<script type="text/javascript" src="app/js/components/menu/menu.component.js"></script>
+	<script type="text/javascript" src="app/js/components/sources/sources.component.js"></script>
+	<script type="text/javascript" src="app/js/components/sources/source-detail.module.js"></script>
+	<script type="text/javascript" src="app/js/components/sources/source-detail.component.js"></script>
+</head>
+<body>
+	<main>
+		<header><a href="/">Cup of News</a></header>
+		<div ng-view></div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<section id="sources">
+	<p>Select <strong>5</strong> news sources below</p>
+	<form ng-submit="submit()" ng-component="sources">
+		<p>Filter Sources:</p>
+		<select id="selectSource" ng-model="text" name="text" ng-change="changedValue(text)">
+			<option value="">All</option>
+			<option value="general">General</option>
+			<option value="technology">Technology</option>
+			<option value="sport">Sports</option>
+			<option value="business">Business</option>
+			<option value="gaming">Gaming</option>
+			<option value="music">Music</option>
+			<option value="politics">Politics</option>
+		</select>
+	</form>
+	<ul>
+		<li ng-repeat="source in $ctrl.sources">
+			<a href="#!/source/{{ source.id }}">{{ source.name }}</a>
+		</li>
+	</ul>
+</section>
